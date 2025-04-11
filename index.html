@@ -1,0 +1,19 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Face Landmarker</title>
+  <link href="./src/css/index.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <video id="webcam" class="output_video" autoplay playsinline></video>
+    <canvas id="output_canvas" class="output_canvas"></canvas>
+    <canvas id="myCanvas" style="border: 3px solid red;"></canvas>   
+  </div>
+  <div id="fpsDisplay" style="position: absolute; top: 10px; left: 10px; color: black; font-size: 16px;"></div>
+  <script type="module" src="./src/scripts/index.js"></script>
+</body>
+</html>
