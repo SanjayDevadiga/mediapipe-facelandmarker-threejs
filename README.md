@@ -7,3 +7,6 @@ Demontration of mediapipe facelandmarker with three.js
 
 Note: Models and code reference has been taken from the below repo
 https://github.com/breathingcyborg/mediapipe-face-effects
+
+Realtime facemesh effects using mediapipe and Three JS.
+![Screenshot](images/screenshot.png)
